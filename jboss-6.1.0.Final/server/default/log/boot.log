@@ -1,0 +1,360 @@
+22:49:47,019 INFO  [AbstractJBossASServerBase] Server Configuration:
+
+	JBOSS_HOME URL: file:/C:/servers/jboss-6.1/jboss-6.1.0.Final/
+	Bootstrap: $JBOSS_HOME\server/default/conf/bootstrap.xml
+	Common Base: $JBOSS_HOME\common/
+	Common Library: $JBOSS_HOME\common/lib/
+	Server Name: default
+	Server Base: $JBOSS_HOME\server/
+	Server Library: $JBOSS_HOME\server/default/lib/
+	Server Config: $JBOSS_HOME\server/default/conf/
+	Server Home: $JBOSS_HOME\server/default/
+	Server Data: $JBOSS_HOME\server/default/data/
+	Server Log: $JBOSS_HOME\server/default/log/
+	Server Temp: $JBOSS_HOME\server/default/tmp/
+
+22:49:47,031 INFO  [AbstractServer] Starting: JBossAS [6.1.0.Final "Neo"]
+22:49:50,040 INFO  [ServerInfo] Java version: 1.8.0_231,Oracle Corporation
+22:49:50,041 INFO  [ServerInfo] Java Runtime: Java(TM) SE Runtime Environment (build 1.8.0_231-b11)
+22:49:50,043 INFO  [ServerInfo] Java VM: Java HotSpot(TM) Server VM 25.231-b11,Oracle Corporation
+22:49:50,044 INFO  [ServerInfo] OS-System: Windows 7 6.1,x86
+22:49:50,045 INFO  [ServerInfo] VM arguments: -Dprogram.name=run.bat -Dlogging.configuration=file:logging.properties -Xms128M -Xmx512M -XX:MaxPermSize=256M -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Dorg.jboss.resolver.warning=true -Djava.endorsed.dirs=C:\servers\jboss-6.1\jboss-6.1.0.Final\lib\endorsed 
+22:49:50,046 DEBUG [ServerInfo] Full System Properties Dump
+22:49:50,047 DEBUG [ServerInfo]     awt.toolkit: sun.awt.windows.WToolkit
+22:49:50,048 DEBUG [ServerInfo]     file.encoding: Cp1252
+22:49:50,048 DEBUG [ServerInfo]     file.encoding.pkg: sun.io
+22:49:50,048 DEBUG [ServerInfo]     file.separator: \
+22:49:50,049 DEBUG [ServerInfo]     java.awt.graphicsenv: sun.awt.Win32GraphicsEnvironment
+22:49:50,049 DEBUG [ServerInfo]     java.awt.printerjob: sun.awt.windows.WPrinterJob
+22:49:50,049 DEBUG [ServerInfo]     java.class.path: C:\Program Files\Java\jdk1.8.0_231\lib\tools.jar;C:\servers\jboss-6.1\jboss-6.1.0.Final\bin\run.jar
+22:49:50,049 DEBUG [ServerInfo]     java.class.version: 52.0
+22:49:50,049 DEBUG [ServerInfo]     java.endorsed.dirs: C:\servers\jboss-6.1\jboss-6.1.0.Final\lib\endorsed
+22:49:50,049 DEBUG [ServerInfo]     java.ext.dirs: C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+22:49:50,050 DEBUG [ServerInfo]     java.home: C:\Program Files\Java\jdk1.8.0_231\jre
+22:49:50,050 DEBUG [ServerInfo]     java.io.tmpdir: C:\Users\Mendes\AppData\Local\Temp\
+22:49:50,050 DEBUG [ServerInfo]     java.library.path: C:\Program Files\Java\jdk1.8.0_231\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_231\bin;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Windows\System32;c:\Windows;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files\PostgreSQL\10\bin;%MAVEN_HOME%\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\Mendes\AppData\Local\Android\Sdk\emulator;C:\Users\Mendes\AppData\Local\Android\Sdk\tools;C:\Users\Mendes\AppData\Local\Android\Sdk\tools\bin;C:\Users\Mendes\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\MongoDB\Server\3.2\bin;C:\Users\Mendes\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Mendes\AppData\Local\Programs\Python\Python38-32\;C:\Users\Mendes\AppData\Roaming\npm;C:\Users\Mendes\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mendes\.dotnet\tools;C:\Program Files\heroku\bin;C:\Program Files\gradle-6.6.1\bin;.
+22:49:50,050 DEBUG [ServerInfo]     java.protocol.handler.pkgs: org.jboss.net.protocol|org.jboss.vfs.protocol
+22:49:50,051 DEBUG [ServerInfo]     java.rmi.server.RMIClassLoaderSpi: org.jboss.system.JBossRMIClassLoader
+22:49:50,051 DEBUG [ServerInfo]     java.rmi.server.hostname: 127.0.0.1
+22:49:50,051 DEBUG [ServerInfo]     java.runtime.name: Java(TM) SE Runtime Environment
+22:49:50,052 DEBUG [ServerInfo]     java.runtime.version: 1.8.0_231-b11
+22:49:50,053 DEBUG [ServerInfo]     java.specification.name: Java Platform API Specification
+22:49:50,054 DEBUG [ServerInfo]     java.specification.vendor: Oracle Corporation
+22:49:50,054 DEBUG [ServerInfo]     java.specification.version: 1.8
+22:49:50,055 DEBUG [ServerInfo]     java.util.logging.manager: org.jboss.logmanager.LogManager
+22:49:50,056 DEBUG [ServerInfo]     java.vendor: Oracle Corporation
+22:49:50,056 DEBUG [ServerInfo]     java.vendor.url: http://java.oracle.com/
+22:49:50,056 DEBUG [ServerInfo]     java.vendor.url.bug: http://bugreport.sun.com/bugreport/
+22:49:50,056 DEBUG [ServerInfo]     java.version: 1.8.0_231
+22:49:50,057 DEBUG [ServerInfo]     java.vm.info: mixed mode
+22:49:50,057 DEBUG [ServerInfo]     java.vm.name: Java HotSpot(TM) Server VM
+22:49:50,060 DEBUG [ServerInfo]     java.vm.specification.name: Java Virtual Machine Specification
+22:49:50,060 DEBUG [ServerInfo]     java.vm.specification.vendor: Oracle Corporation
+22:49:50,060 DEBUG [ServerInfo]     java.vm.specification.version: 1.8
+22:49:50,060 DEBUG [ServerInfo]     java.vm.vendor: Oracle Corporation
+22:49:50,061 DEBUG [ServerInfo]     java.vm.version: 25.231-b11
+22:49:50,061 DEBUG [ServerInfo]     javax.management.builder.initial: org.jboss.mx.server.MBeanServerBuilderImpl
+22:49:50,064 DEBUG [ServerInfo]     jboss.bind.address: 127.0.0.1
+22:49:50,065 DEBUG [ServerInfo]     jboss.boot.server.log.dir: C:\servers\jboss-6.1\jboss-6.1.0.Final\server\default\log
+22:49:50,065 DEBUG [ServerInfo]     jboss.bootstrap.home.url: file:/C:/servers/jboss-6.1/jboss-6.1.0.Final/server/default/conf/
+22:49:50,065 DEBUG [ServerInfo]     jboss.bootstrap.name: bootstrap.xml
+22:49:50,065 DEBUG [ServerInfo]     jboss.bootstrap.url: file:/C:/servers/jboss-6.1/jboss-6.1.0.Final/server/default/conf/bootstrap.xml
+22:49:50,065 DEBUG [ServerInfo]     jboss.common.base.url: file:/C:/servers/jboss-6.1/jboss-6.1.0.Final/common/
+22:49:50,065 DEBUG [ServerInfo]     jboss.common.lib.url: file:/C:/servers/jboss-6.1/jboss-6.1.0.Final/common/lib/
+22:49:50,066 DEBUG [ServerInfo]     jboss.home: C:\servers\jboss-6.1\jboss-6.1.0.Final
+22:49:50,067 DEBUG [ServerInfo]     jboss.home.dir: C:\servers\jboss-6.1\jboss-6.1.0.Final
+22:49:50,067 DEBUG [ServerInfo]     jboss.home.url: file:/C:/servers/jboss-6.1/jboss-6.1.0.Final/
+22:49:50,067 DEBUG [ServerInfo]     jboss.host.name: leozin
+22:49:50,068 DEBUG [ServerInfo]     jboss.lib.url: file:/C:/servers/jboss-6.1/jboss-6.1.0.Final/lib/
+22:49:50,068 DEBUG [ServerInfo]     jboss.native.dir: C:\servers\jboss-6.1\jboss-6.1.0.Final\server\default\tmp\native
+22:49:50,068 DEBUG [ServerInfo]     jboss.native.load: false
+22:49:50,069 DEBUG [ServerInfo]     jboss.node.name: leozin
+22:49:50,096 DEBUG [ServerInfo]     jboss.partition.name: DefaultPartition
+22:49:50,097 DEBUG [ServerInfo]     jboss.platform.mbeanserver: true
+22:49:50,097 DEBUG [ServerInfo]     jboss.qualified.host.name: leozin
+22:49:50,097 DEBUG [ServerInfo]     jboss.server.base.dir: C:\servers\jboss-6.1\jboss-6.1.0.Final\server
+22:49:50,097 DEBUG [ServerInfo]     jboss.server.base.url: file:/C:/servers/jboss-6.1/jboss-6.1.0.Final/server/
+22:49:50,097 DEBUG [ServerInfo]     jboss.server.config.url: file:/C:/servers/jboss-6.1/jboss-6.1.0.Final/server/default/conf/
+22:49:50,097 DEBUG [ServerInfo]     jboss.server.data.dir: C:\servers\jboss-6.1\jboss-6.1.0.Final\server\default\data
+22:49:50,098 DEBUG [ServerInfo]     jboss.server.home.dir: C:\servers\jboss-6.1\jboss-6.1.0.Final\server\default
+22:49:50,098 DEBUG [ServerInfo]     jboss.server.home.url: file:/C:/servers/jboss-6.1/jboss-6.1.0.Final/server/default/
+22:49:50,098 DEBUG [ServerInfo]     jboss.server.lib.url: file:/C:/servers/jboss-6.1/jboss-6.1.0.Final/server/default/lib/
+22:49:50,098 DEBUG [ServerInfo]     jboss.server.log.dir: C:\servers\jboss-6.1\jboss-6.1.0.Final\server\default\log
+22:49:50,098 DEBUG [ServerInfo]     jboss.server.name: default
+22:49:50,098 DEBUG [ServerInfo]     jboss.server.temp.dir: C:\servers\jboss-6.1\jboss-6.1.0.Final\server\default\tmp
+22:49:50,098 DEBUG [ServerInfo]     jboss.vfs.forceCopy: true
+22:49:50,099 DEBUG [ServerInfo]     jbossmx.loader.repository.class: org.jboss.mx.loading.UnifiedLoaderRepository3
+22:49:50,099 DEBUG [ServerInfo]     jgroups.bind_addr: 127.0.0.1
+22:49:50,099 DEBUG [ServerInfo]     line.separator: 
+
+22:49:50,099 DEBUG [ServerInfo]     log4j.defaultInitOverride: true
+22:49:50,099 DEBUG [ServerInfo]     logging.configuration: file:logging.properties
+22:49:50,099 DEBUG [ServerInfo]     org.jboss.deployers.spi.deployer.matchers.NameIgnoreMechanism: org.jboss.deployers.spi.deployer.helpers.DummyNameIgnoreMechanism
+22:49:50,099 DEBUG [ServerInfo]     org.jboss.logging.Logger.pluginClass: org.jboss.logging.logmanager.LoggerPluginImpl
+22:49:50,100 DEBUG [ServerInfo]     org.jboss.reflect.spi.TypeInfoFactory: org.jboss.reflect.plugins.introspection.IntrospectionTypeInfoFactory
+22:49:50,100 DEBUG [ServerInfo]     org.jboss.resolver.warning: true
+22:49:50,100 DEBUG [ServerInfo]     os.arch: x86
+22:49:50,100 DEBUG [ServerInfo]     os.name: Windows 7
+22:49:50,100 DEBUG [ServerInfo]     os.version: 6.1
+22:49:50,100 DEBUG [ServerInfo]     path.separator: ;
+22:49:50,100 DEBUG [ServerInfo]     program.name: run.bat
+22:49:50,101 DEBUG [ServerInfo]     sun.arch.data.model: 32
+22:49:50,101 DEBUG [ServerInfo]     sun.boot.class.path: C:\servers\jboss-6.1\jboss-6.1.0.Final\lib\endorsed\activation.jar;C:\servers\jboss-6.1\jboss-6.1.0.Final\lib\endorsed\jboss-annotations-api_1.1_spec.jar;C:\servers\jboss-6.1\jboss-6.1.0.Final\lib\endorsed\jboss-jaxb-api_2.2_spec.jar;C:\servers\jboss-6.1\jboss-6.1.0.Final\lib\endorsed\jboss-jaxws-api_2.2_spec.jar;C:\servers\jboss-6.1\jboss-6.1.0.Final\lib\endorsed\jbossws-cxf-factories.jar;C:\servers\jboss-6.1\jboss-6.1.0.Final\lib\endorsed\stax-api.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes
+22:49:50,101 DEBUG [ServerInfo]     sun.boot.library.path: C:\Program Files\Java\jdk1.8.0_231\jre\bin
+22:49:50,101 DEBUG [ServerInfo]     sun.cpu.endian: little
+22:49:50,101 DEBUG [ServerInfo]     sun.cpu.isalist: pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+22:49:50,101 DEBUG [ServerInfo]     sun.desktop: windows
+22:49:50,102 DEBUG [ServerInfo]     sun.io.unicode.encoding: UnicodeLittle
+22:49:50,102 DEBUG [ServerInfo]     sun.java.command: org.jboss.Main
+22:49:50,102 DEBUG [ServerInfo]     sun.java.launcher: SUN_STANDARD
+22:49:50,102 DEBUG [ServerInfo]     sun.jnu.encoding: Cp1252
+22:49:50,102 DEBUG [ServerInfo]     sun.management.compiler: HotSpot Tiered Compilers
+22:49:50,102 DEBUG [ServerInfo]     sun.os.patch.level: Service Pack 1
+22:49:50,102 DEBUG [ServerInfo]     sun.rmi.dgc.client.gcInterval: 3600000
+22:49:50,102 DEBUG [ServerInfo]     sun.rmi.dgc.server.gcInterval: 3600000
+22:49:50,103 DEBUG [ServerInfo]     sun.stderr.encoding: cp850
+22:49:50,103 DEBUG [ServerInfo]     sun.stdout.encoding: cp850
+22:49:50,103 DEBUG [ServerInfo]     user.country: BR
+22:49:50,103 DEBUG [ServerInfo]     user.dir: C:\servers\jboss-6.1\jboss-6.1.0.Final\bin
+22:49:50,103 DEBUG [ServerInfo]     user.home: C:\Users\Mendes
+22:49:50,103 DEBUG [ServerInfo]     user.language: pt
+22:49:50,104 DEBUG [ServerInfo]     user.name: Mendes
+22:49:50,104 DEBUG [ServerInfo]     user.script: 
+22:49:50,104 DEBUG [ServerInfo]     user.timezone: America/Sao_Paulo
+22:49:50,104 DEBUG [ServerInfo]     user.variant: 
+22:49:50,104 DEBUG [ServerInfo]     xb.builder.repeatableParticleHandlers: false
+22:49:50,104 DEBUG [ServerInfo]     xb.builder.useUnorderedSequence: true
+22:49:50,136 INFO  [JMXKernel] Legacy JMX core initialized
+22:49:59,560 INFO  [AbstractServerConfig] JBoss Web Services - Stack CXF Server 3.4.1.GA
+22:49:59,587 WARN  [AbstractKernelController] Broken callback: ClassSingleCallbackItem@c88039{name=interface org.jboss.wsf.spi.metadata.DescriptorProcessor whenRequired=ControllerState@472b3c{Installed} dependentState=ControllerState@472b3c{Installed} attributeName=setProcessor owner=AbstractKernelControllerContext@1471008{ metadata=AbstractBeanMetaData@3de092{name=WSDescriptorDeployer bean=org.jboss.webservices.integration.deployers.WSDescriptorDeployer properties= classLoader=BeanMetaDataDeployer$DeploymentClassLoaderMetaData@1b87834{classloader=null} constructor=null autowireCandidate=true installCallbacks=[method=setProcessor, method=setParser]}name=WSDescriptorDeployer target=org.jboss.webservices.integration.deployers.WSDescriptorDeployer@e276e3 state=Installed depends=AbstractDependencyInfo@1403cbd{}} signature=org.jboss.wsf.spi.metadata.DescriptorProcessor}: java.lang.ClassCastException: org.jboss.wsf.stack.cxf.deployment.jms.JMSDescriptorProcessorImpl cannot be cast to org.jboss.wsf.spi.metadata.webservices.WebservicesDescriptorProcessor
+	at org.jboss.webservices.integration.deployers.WSDescriptorDeployer.setProcessor(WSDescriptorDeployer.java:33) [:6.1.0.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [:1.8.0_231]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [:1.8.0_231]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [:1.8.0_231]
+	at java.lang.reflect.Method.invoke(Method.java:498) [:1.8.0_231]
+	at org.jboss.reflect.plugins.introspection.ReflectionUtils.invoke(ReflectionUtils.java:60) [jboss-reflect.jar:2.2.1.SP1]
+	at org.jboss.reflect.plugins.introspection.ReflectMethodInfoImpl.invoke(ReflectMethodInfoImpl.java:168) [jboss-reflect.jar:2.2.1.SP1]
+	at org.jboss.joinpoint.plugins.BasicMethodJoinPoint.dispatch(BasicMethodJoinPoint.java:66) [jboss-reflect.jar:2.2.1.SP1]
+	at org.jboss.beans.info.plugins.AbstractBeanInfo.invoke(AbstractBeanInfo.java:300) [jboss-reflect.jar:2.2.1.SP1]
+	at org.jboss.kernel.plugins.dependency.AbstractKernelControllerContext.invoke(AbstractKernelControllerContext.java:305) [jboss-kernel.jar:2.2.0.SP2]
+	at org.jboss.kernel.plugins.dependency.ClassSingleCallbackItem.ownerCallback(ClassSingleCallbackItem.java:78) [jboss-kernel.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.resolveCallbacks(AbstractController.java:1887) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.resolveCallbacks(AbstractController.java:1937) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:1092) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.executeOrIncrementStateDirectly(AbstractController.java:1322) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1246) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1139) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:894) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:641) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.deployers.vfs.deployer.kernel.BeanMetaDataDeployer.deploy(BeanMetaDataDeployer.java:182) [:2.2.2.GA]
+	at org.jboss.deployers.vfs.deployer.kernel.BeanMetaDataDeployer.deploy(BeanMetaDataDeployer.java:58) [:2.2.2.GA]
+	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalDeploy(AbstractSimpleRealDeployer.java:63) [:2.2.2.GA]
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:55) [:2.2.2.GA]
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:179) [:2.2.2.GA]
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1832) [:2.2.2.GA]
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1550) [:2.2.2.GA]
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1571) [:2.2.2.GA]
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1491) [:2.2.2.GA]
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:379) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:2044) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:1083) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.executeOrIncrementStateDirectly(AbstractController.java:1322) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1246) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1139) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:939) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:654) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.change(DeployersImpl.java:1983) [:2.2.2.GA]
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:1076) [:2.2.2.GA]
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:679) [:2.2.2.GA]
+	at org.jboss.system.server.profileservice.deployers.MainDeployerPlugin.process(MainDeployerPlugin.java:106) [:6.1.0.Final]
+	at org.jboss.profileservice.dependency.ProfileControllerContext$DelegateDeployer.process(ProfileControllerContext.java:143) [:0.2.2]
+	at org.jboss.profileservice.dependency.ProfileDeployAction.deploy(ProfileDeployAction.java:151) [:0.2.2]
+	at org.jboss.profileservice.dependency.ProfileDeployAction.installActionInternal(ProfileDeployAction.java:94) [:0.2.2]
+	at org.jboss.kernel.plugins.dependency.InstallsAwareAction.installAction(InstallsAwareAction.java:54) [jboss-kernel.jar:2.2.0.SP2]
+	at org.jboss.kernel.plugins.dependency.InstallsAwareAction.installAction(InstallsAwareAction.java:42) [jboss-kernel.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.action.SimpleControllerContextAction.simpleInstallAction(SimpleControllerContextAction.java:62) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.action.AccessControllerContextAction.install(AccessControllerContextAction.java:71) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractControllerContextActions.install(AbstractControllerContextActions.java:51) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:379) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:2044) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:1083) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.executeOrIncrementStateDirectly(AbstractController.java:1322) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1246) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1139) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:939) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:654) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.profileservice.dependency.ProfileActivationWrapper$BasicProfileActivation.start(ProfileActivationWrapper.java:190) [:0.2.2]
+	at org.jboss.profileservice.dependency.ProfileActivationWrapper.start(ProfileActivationWrapper.java:87) [:0.2.2]
+	at org.jboss.profileservice.dependency.ProfileActivationService.activateProfile(ProfileActivationService.java:215) [:0.2.2]
+	at org.jboss.profileservice.dependency.ProfileActivationService.activate(ProfileActivationService.java:159) [:0.2.2]
+	at org.jboss.profileservice.bootstrap.AbstractProfileServiceBootstrap.activate(AbstractProfileServiceBootstrap.java:112) [:0.2.2]
+	at org.jboss.profileservice.resolver.BasicResolverFactory$ProfileResolverFacade.deploy(BasicResolverFactory.java:87) [:0.2.2]
+	at org.jboss.profileservice.bootstrap.AbstractProfileServiceBootstrap.start(AbstractProfileServiceBootstrap.java:91) [:0.2.2]
+	at org.jboss.system.server.profileservice.bootstrap.BasicProfileServiceBootstrap.start(BasicProfileServiceBootstrap.java:132) [:6.1.0.Final]
+	at org.jboss.system.server.profileservice.bootstrap.BasicProfileServiceBootstrap.start(BasicProfileServiceBootstrap.java:56) [:6.1.0.Final]
+	at org.jboss.bootstrap.impl.base.server.AbstractServer.startBootstraps(AbstractServer.java:827) [jboss-bootstrap-impl-base.jar:2.1.0-alpha-6]
+	at org.jboss.bootstrap.impl.base.server.AbstractServer$StartServerTask.run(AbstractServer.java:417) [jboss-bootstrap-impl-base.jar:2.1.0-alpha-6]
+	at java.lang.Thread.run(Thread.java:748) [:1.8.0_231]
+
+22:49:59,713 WARN  [AbstractKernelController] Broken callback: ClassSingleCallbackItem@ae7ff9{name=interface org.jboss.wsf.spi.metadata.DescriptorProcessor whenRequired=ControllerState@472b3c{Installed} dependentState=ControllerState@472b3c{Installed} attributeName=setProcessor owner=AbstractKernelControllerContext@10fdba5{ metadata=AbstractBeanMetaData@19568ac{name=JMSDescriptorDeployer bean=org.jboss.webservices.integration.deployers.JMSDescriptorDeployer properties= classLoader=BeanMetaDataDeployer$DeploymentClassLoaderMetaData@5793cd{classloader=null} constructor=null autowireCandidate=true installCallbacks=[method=setProcessor, method=setParser]}name=JMSDescriptorDeployer target=org.jboss.webservices.integration.deployers.JMSDescriptorDeployer@bd839b state=Installed depends=AbstractDependencyInfo@b39c10{}} signature=org.jboss.wsf.spi.metadata.DescriptorProcessor}: java.lang.ClassCastException: org.jboss.wsf.framework.deployment.jms.WebservicesDescriptorProcessorImpl cannot be cast to org.jboss.wsf.spi.metadata.jms.JMSDescriptorProcessor
+	at org.jboss.webservices.integration.deployers.JMSDescriptorDeployer.setProcessor(JMSDescriptorDeployer.java:33) [:6.1.0.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [:1.8.0_231]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [:1.8.0_231]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [:1.8.0_231]
+	at java.lang.reflect.Method.invoke(Method.java:498) [:1.8.0_231]
+	at org.jboss.reflect.plugins.introspection.ReflectionUtils.invoke(ReflectionUtils.java:60) [jboss-reflect.jar:2.2.1.SP1]
+	at org.jboss.reflect.plugins.introspection.ReflectMethodInfoImpl.invoke(ReflectMethodInfoImpl.java:168) [jboss-reflect.jar:2.2.1.SP1]
+	at org.jboss.joinpoint.plugins.BasicMethodJoinPoint.dispatch(BasicMethodJoinPoint.java:66) [jboss-reflect.jar:2.2.1.SP1]
+	at org.jboss.beans.info.plugins.AbstractBeanInfo.invoke(AbstractBeanInfo.java:300) [jboss-reflect.jar:2.2.1.SP1]
+	at org.jboss.kernel.plugins.dependency.AbstractKernelControllerContext.invoke(AbstractKernelControllerContext.java:305) [jboss-kernel.jar:2.2.0.SP2]
+	at org.jboss.kernel.plugins.dependency.ClassSingleCallbackItem.ownerCallback(ClassSingleCallbackItem.java:78) [jboss-kernel.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.resolveCallbacks(AbstractController.java:1887) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.resolveCallbacks(AbstractController.java:1937) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:1092) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.executeOrIncrementStateDirectly(AbstractController.java:1322) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1246) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1139) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:894) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:641) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.deployers.vfs.deployer.kernel.BeanMetaDataDeployer.deploy(BeanMetaDataDeployer.java:182) [:2.2.2.GA]
+	at org.jboss.deployers.vfs.deployer.kernel.BeanMetaDataDeployer.deploy(BeanMetaDataDeployer.java:58) [:2.2.2.GA]
+	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalDeploy(AbstractSimpleRealDeployer.java:63) [:2.2.2.GA]
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:55) [:2.2.2.GA]
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:179) [:2.2.2.GA]
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1832) [:2.2.2.GA]
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1550) [:2.2.2.GA]
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1571) [:2.2.2.GA]
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1491) [:2.2.2.GA]
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:379) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:2044) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:1083) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.executeOrIncrementStateDirectly(AbstractController.java:1322) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1246) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1139) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:939) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:654) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.change(DeployersImpl.java:1983) [:2.2.2.GA]
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:1076) [:2.2.2.GA]
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:679) [:2.2.2.GA]
+	at org.jboss.system.server.profileservice.deployers.MainDeployerPlugin.process(MainDeployerPlugin.java:106) [:6.1.0.Final]
+	at org.jboss.profileservice.dependency.ProfileControllerContext$DelegateDeployer.process(ProfileControllerContext.java:143) [:0.2.2]
+	at org.jboss.profileservice.dependency.ProfileDeployAction.deploy(ProfileDeployAction.java:151) [:0.2.2]
+	at org.jboss.profileservice.dependency.ProfileDeployAction.installActionInternal(ProfileDeployAction.java:94) [:0.2.2]
+	at org.jboss.kernel.plugins.dependency.InstallsAwareAction.installAction(InstallsAwareAction.java:54) [jboss-kernel.jar:2.2.0.SP2]
+	at org.jboss.kernel.plugins.dependency.InstallsAwareAction.installAction(InstallsAwareAction.java:42) [jboss-kernel.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.action.SimpleControllerContextAction.simpleInstallAction(SimpleControllerContextAction.java:62) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.action.AccessControllerContextAction.install(AccessControllerContextAction.java:71) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractControllerContextActions.install(AbstractControllerContextActions.java:51) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:379) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:2044) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:1083) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.executeOrIncrementStateDirectly(AbstractController.java:1322) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1246) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1139) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:939) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:654) [jboss-dependency.jar:2.2.0.SP2]
+	at org.jboss.profileservice.dependency.ProfileActivationWrapper$BasicProfileActivation.start(ProfileActivationWrapper.java:190) [:0.2.2]
+	at org.jboss.profileservice.dependency.ProfileActivationWrapper.start(ProfileActivationWrapper.java:87) [:0.2.2]
+	at org.jboss.profileservice.dependency.ProfileActivationService.activateProfile(ProfileActivationService.java:215) [:0.2.2]
+	at org.jboss.profileservice.dependency.ProfileActivationService.activate(ProfileActivationService.java:159) [:0.2.2]
+	at org.jboss.profileservice.bootstrap.AbstractProfileServiceBootstrap.activate(AbstractProfileServiceBootstrap.java:112) [:0.2.2]
+	at org.jboss.profileservice.resolver.BasicResolverFactory$ProfileResolverFacade.deploy(BasicResolverFactory.java:87) [:0.2.2]
+	at org.jboss.profileservice.bootstrap.AbstractProfileServiceBootstrap.start(AbstractProfileServiceBootstrap.java:91) [:0.2.2]
+	at org.jboss.system.server.profileservice.bootstrap.BasicProfileServiceBootstrap.start(BasicProfileServiceBootstrap.java:132) [:6.1.0.Final]
+	at org.jboss.system.server.profileservice.bootstrap.BasicProfileServiceBootstrap.start(BasicProfileServiceBootstrap.java:56) [:6.1.0.Final]
+	at org.jboss.bootstrap.impl.base.server.AbstractServer.startBootstraps(AbstractServer.java:827) [jboss-bootstrap-impl-base.jar:2.1.0-alpha-6]
+	at org.jboss.bootstrap.impl.base.server.AbstractServer$StartServerTask.run(AbstractServer.java:417) [jboss-bootstrap-impl-base.jar:2.1.0-alpha-6]
+	at java.lang.Thread.run(Thread.java:748) [:1.8.0_231]
+
+22:50:00,602 INFO  [JSFImplManagementDeployer] Initialized 3 JSF configurations: [Mojarra-1.2, MyFaces-2.0, Mojarra-2.0]
+22:50:11,796 ADVERTÊNCIA [FileConfigurationParser] AIO wasn't located on this platform, it will fall back to using pure Java NIO. If your platform is Linux, install LibAIO to enable the AIO journal
+22:50:12,175 INFO  [JMXConnector] starting JMXConnector on host 127.0.0.1:1090
+22:50:12,432 INFO  [MailService] Mail Service bound to java:/Mail
+22:50:14,191 INFORMAÇÕES [HornetQServerImpl] live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=C:\servers\jboss-6.1\jboss-6.1.0.Final\server\default\data/hornetq/journal,bindingsDirectory=C:\servers\jboss-6.1\jboss-6.1.0.Final\server\default\data/hornetq/bindings,largeMessagesDirectory=C:\servers\jboss-6.1\jboss-6.1.0.Final\server\default\data/hornetq/largemessages,pagingDirectory=C:\servers\jboss-6.1\jboss-6.1.0.Final\server\default\data/hornetq/paging)
+22:50:14,200 INFORMAÇÕES [HornetQServerImpl] Waiting to obtain live lock
+22:50:14,346 INFO  [JournalStorageManager] Using NIO Journal
+22:50:14,390 ADVERTÊNCIA [HornetQServerImpl] Security risk! It has been detected that the cluster admin user and password have not been changed from the installation default. Please see the HornetQ user guide, cluster chapter, for instructions on how to do this.
+22:50:14,634 INFO  [FileLockNodeManager] Waiting to obtain live lock
+22:50:14,635 INFO  [FileLockNodeManager] Live Server Obtained live lock
+22:50:16,327 INFO  [NettyAcceptor] Started Netty Acceptor version 3.2.3.Final-r${buildNumber} 127.0.0.1:5455 for CORE protocol
+22:50:16,328 INFO  [NettyAcceptor] Started Netty Acceptor version 3.2.3.Final-r${buildNumber} 127.0.0.1:5445 for CORE protocol
+22:50:16,333 INFORMAÇÕES [HornetQServerImpl] Server is now live
+22:50:16,336 INFORMAÇÕES [HornetQServerImpl] HornetQ Server version 2.2.5.Final (HQ_2_2_5_FINAL_AS7, 121) [2c768704-cb1c-11eb-b415-e069951f54b5] started
+22:50:16,458 INFO  [WebService] Using RMI server codebase: http://127.0.0.1:8083/
+22:50:16,865 INFO  [jbossatx] ARJUNA-32010 JBossTS Recovery Service (tag: JBOSSTS_4_14_0_Final) - JBoss Inc.
+22:50:16,878 INFO  [arjuna] ARJUNA-12324 Start RecoveryActivators
+22:50:17,104 INFO  [arjuna] ARJUNA-12310 Recovery manager listening on endpoint 127.0.0.1:4712
+22:50:17,242 INFO  [arjuna] ARJUNA-12344 RecoveryManagerImple is ready on port 4712
+22:50:17,243 INFO  [jbossatx] ARJUNA-32013 Starting transaction recovery manager
+22:50:17,151 INFO  [arjuna] ARJUNA-12296 ExpiredEntryMonitor running at Sex, 11 jun 2021 22:50:17
+22:50:17,421 INFO  [arjuna] ARJUNA-12163 Starting service com.arjuna.ats.arjuna.recovery.ActionStatusService on port 4713
+22:50:17,735 INFO  [arjuna] ARJUNA-12337 TransactionStatusManagerItem host: 127.0.0.1 port: 4713
+22:50:17,798 INFO  [arjuna] ARJUNA-12170 TransactionStatusManager started on port 4713 and host 127.0.0.1 with service com.arjuna.ats.arjuna.recovery.ActionStatusService
+22:50:17,858 INFO  [jbossatx] ARJUNA-32017 JBossTS Transaction Service (JTA version - tag: JBOSSTS_4_14_0_Final) - JBoss Inc.
+22:50:17,975 INFO  [arjuna] ARJUNA-12202 registering bean jboss.jta:type=ObjectStore.
+22:50:18,275 INFO  [AprLifecycleListener] The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_231\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_231\bin;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Windows\System32;c:\Windows;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files\PostgreSQL\10\bin;%MAVEN_HOME%\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\Mendes\AppData\Local\Android\Sdk\emulator;C:\Users\Mendes\AppData\Local\Android\Sdk\tools;C:\Users\Mendes\AppData\Local\Android\Sdk\tools\bin;C:\Users\Mendes\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\MongoDB\Server\3.2\bin;C:\Users\Mendes\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Mendes\AppData\Local\Programs\Python\Python38-32\;C:\Users\Mendes\AppData\Roaming\npm;C:\Users\Mendes\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mendes\.dotnet\tools;C:\Program Files\heroku\bin;C:\Program Files\gradle-6.6.1\bin;.
+22:50:18,598 INFO  [ModClusterService] Initializing mod_cluster 1.1.0.Final
+22:50:18,618 INFO  [TomcatDeployment] deploy, ctxPath=/invoker
+22:50:19,272 INFO  [RARDeployment] Required license terms exist, view vfs:/C:/servers/jboss-6.1/jboss-6.1.0.Final/server/default/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+22:50:19,286 INFO  [RARDeployment] Required license terms exist, view vfs:/C:/servers/jboss-6.1/jboss-6.1.0.Final/server/default/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+22:50:19,299 INFO  [RARDeployment] Required license terms exist, view vfs:/C:/servers/jboss-6.1/jboss-6.1.0.Final/server/default/deploy/jms-ra.rar/META-INF/ra.xml
+22:50:19,319 INFO  [HornetQResourceAdapter] HornetQ resource adaptor started
+22:50:19,329 INFO  [RARDeployment] Required license terms exist, view vfs:/C:/servers/jboss-6.1/jboss-6.1.0.Final/server/default/deploy/mail-ra.rar/META-INF/ra.xml
+22:50:19,342 INFO  [RARDeployment] Required license terms exist, view vfs:/C:/servers/jboss-6.1/jboss-6.1.0.Final/server/default/deploy/quartz-ra.rar/META-INF/ra.xml
+22:50:19,475 INFO  [SimpleThreadPool] Job execution threads will use class loader of thread: Thread-2
+22:50:19,678 INFO  [SchedulerSignalerImpl] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+22:50:19,679 INFO  [QuartzScheduler] Quartz Scheduler v.1.8.3 created.
+22:50:19,683 INFO  [RAMJobStore] RAMJobStore initialized.
+22:50:19,688 INFO  [QuartzScheduler] Scheduler meta-data: Quartz Scheduler (v1.8.3) 'JBossQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+22:50:19,690 INFO  [StdSchedulerFactory] Quartz scheduler 'JBossQuartzScheduler' initialized from an externally opened InputStream.
+22:50:19,690 INFO  [StdSchedulerFactory] Quartz scheduler version: 1.8.3
+22:50:19,691 INFO  [QuartzScheduler] Scheduler JBossQuartzScheduler_$_NON_CLUSTERED started.
+22:50:20,498 INFO  [ConnectionFactoryBindingService] Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+22:50:20,909 INFO  [ConnectionFactoryBindingService] Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+22:50:21,070 INFO  [xnio] XNIO Version 2.1.0.CR2
+22:50:21,088 INFO  [nio] XNIO NIO Implementation Version 2.1.0.CR2
+22:50:21,830 INFO  [remoting] JBoss Remoting version 3.1.0.Beta2
+22:50:21,994 INFO  [TomcatDeployment] deploy, ctxPath=/
+22:50:22,036 INFORMAÇÕES [HornetQServerImpl] trying to deploy queue jms.queue.DLQ
+22:50:22,181 INFORMAÇÕES [HornetQServerImpl] trying to deploy queue jms.queue.ExpiryQueue
+22:50:22,222 INFORMAÇÕES [service] Removing bootstrap log handlers
+23:15:50,052 INFORMAÇÕES [service] Restored bootstrap log handlers
+23:15:50,068 INFO  [TomcatDeployment] undeploy, ctxPath=/
+23:15:50,169 INFO  [ConnectionFactoryBindingService] Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+23:15:50,309 INFO  [ConnectionFactoryBindingService] Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+23:15:50,656 INFO  [HypersonicDatabase] Database standalone closed clean
+23:15:50,660 INFO  [QuartzScheduler] Scheduler JBossQuartzScheduler_$_NON_CLUSTERED shutting down.
+23:15:50,661 INFO  [QuartzScheduler] Scheduler JBossQuartzScheduler_$_NON_CLUSTERED paused.
+23:15:50,663 INFO  [QuartzScheduler] Scheduler JBossQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+23:15:50,665 WARN  [ComponentDeploymentContext] Removing name on null names: jboss.naming:application=quartz-ra
+23:15:50,670 WARN  [ComponentDeploymentContext] Removing name on null names: jboss.naming:application=mail-ra
+23:15:50,673 INFO  [HornetQResourceAdapter] HornetQ resource adapter stopped
+23:15:50,676 WARN  [ComponentDeploymentContext] Removing name on null names: jboss.naming:application=jms-ra
+23:15:50,680 WARN  [ComponentDeploymentContext] Removing name on null names: jboss.naming:application=jboss-xa-jdbc
+23:15:50,683 WARN  [ComponentDeploymentContext] Removing name on null names: jboss.naming:application=jboss-local-jdbc
+23:15:50,694 INFO  [TomcatDeployment] undeploy, ctxPath=/admin-console
+23:15:50,704 INFO  [BootstrapAction] Shutting down Administration Console...
+23:15:50,708 INFO  [PluginContainer] Plugin container is being shutdown...
+23:15:50,715 INFO  [ContentManager] Shutting down Content Manager...
+23:15:50,720 WARN  [PluginClassLoader] Failed to purge embedded jars directory. Cause: java.io.IOException: Failed to delete file or directory: C:\servers\jboss-6.1\jboss-6.1.0.Final\server\default\tmp\embjopr\jopr-jboss-as-5-plugin-3.0.0.jar6697239747375255658.classloader\ant-1.6.5.jar1023621718046775403.tmp
+23:15:50,722 WARN  [PluginClassLoader] Failed to purge embedded jars directory. Cause: java.io.IOException: Failed to delete file or directory: C:\servers\jboss-6.1\jboss-6.1.0.Final\server\default\tmp\embjopr\infinispan-jopr-plugin-4.2.0.CR4.jar6131219356944544985.classloader\infinispan-core-4.2.0.CR4.jar8976741418054110715.tmp
+23:15:50,724 WARN  [PluginClassLoader] Failed to purge embedded jars directory. Cause: java.io.IOException: Failed to delete file or directory: C:\servers\jboss-6.1\jboss-6.1.0.Final\server\default\tmp\embjopr\jopr-jboss-as-5-plugin-3.0.0.jar6697239747375255658.classloader\ant-1.6.5.jar1023621718046775403.tmp
+23:15:50,727 WARN  [PluginClassLoader] Failed to purge embedded jars directory. Cause: java.io.IOException: Failed to delete file or directory: C:\servers\jboss-6.1\jboss-6.1.0.Final\server\default\tmp\embjopr\rhq-jmx-plugin-3.0.0.jar2688119108443094527.classloader\org-mc4j-ems-1.2.11.jar4724951465914362059.tmp
+23:15:50,729 WARN  [PluginContainer] Failed to purge contents of temporary directory - cause: java.io.IOException: Failed to delete file or directory: C:\servers\jboss-6.1\jboss-6.1.0.Final\server\default\tmp\embjopr\infinispan-jopr-plugin-4.2.0.CR4.jar6131219356944544985.classloader\infinispan-core-4.2.0.CR4.jar8976741418054110715.tmp
+23:15:50,730 INFO  [PluginContainer] Plugin container is now shutdown.
+23:15:50,826 INFO  [TomcatDeployment] undeploy, ctxPath=/jbossws
+23:15:50,849 INFO  [TomcatDeployment] undeploy, ctxPath=/jmx-console
+23:15:51,011 INFO  [TomcatDeployment] undeploy, ctxPath=/invoker
+23:15:51,029 INFO  [jbossatx] ARJUNA-32018 Destroying TransactionManagerService
+23:15:51,038 INFO  [jbossatx] ARJUNA-32014 Stopping transaction recovery manager
+23:15:51,318 INFORMAÇÕES [HornetQServerImpl] HornetQ Server version 2.2.5.Final (HQ_2_2_5_FINAL_AS7, 121) [2c768704-cb1c-11eb-b415-e069951f54b5] stopped
+23:15:51,400 INFO  [MailService] Mail service 'java:/Mail' removed from JNDI
+23:15:51,407 INFO  [JMXConnector] JMXConnector stopped
+23:15:53,587 INFO  [AbstractServer] Stopped: JBossAS [6.1.0.Final "Neo"] in 3s:734ms
